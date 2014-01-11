@@ -1,0 +1,41 @@
+{
+  "name": "generator-protractor-pageobjects",
+  "version": "0.0.0",
+  "description": "A generator for Yeoman",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "homepage": "https://github.com/sesteva/generator-protractor-pageobjects",
+  "bugs": "https://github.com/sesteva/generator-protractor-pageobjects/issues",
+  "author": {
+    "name": "Santiago Esteva",
+    "email": "santiagoesteva@gmail.com",
+    "url": "https://github.com/sesteva"
+  },
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sesteva/generator-protractor-pageobjects.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "yeoman-generator": "~0.14.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.14.0"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  },
+  "engines": {
+    "node": ">=0.8.0",
+    "npm": ">=1.2.10"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}
