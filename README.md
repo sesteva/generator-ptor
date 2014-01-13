@@ -1,4 +1,4 @@
-# generator-protractor-pageobjects [![Build Status](https://secure.travis-ci.org/sesteva/generator-protractor-pageobjects.png?branch=master)](https://travis-ci.org/sesteva/generator-protractor-pageobjects)
+# generator-ptor [![Build Status](https://secure.travis-ci.org/sesteva/generator-ptor.png?branch=master)](https://travis-ci.org/sesteva/generator-ptor)
 
 A generator for [Yeoman](http://yeoman.io).
 

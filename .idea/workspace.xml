@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03f7e035-7f22-4246-9c93-75deae9fc1fe" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-creation.js" afterPath="$PROJECT_DIR$/test/test-creation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-load.js" afterPath="$PROJECT_DIR$/test/test-load.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="generator-ptor.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,7 +28,7 @@
     <file path="$USER_HOME$/temp/specs/builtWithAngularSpec.coffee" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389640106767" ignored="false" />
     <file path="/protractor-sauce.conf.js" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389640500609" ignored="false" />
     <file path="$USER_HOME$/temp/lib/pageObject.js" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389640532551" ignored="false" />
-    <file path="/README.md" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389650560215" ignored="false" />
+    <file path="/README.md" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389656777579" ignored="false" />
     <file path="/test-creation.js" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389654969678" ignored="false" />
     <file path="/.gitignore" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389654989603" ignored="false" />
     <file path="/test-configuration.js" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389656212538" ignored="false" />
@@ -54,7 +51,17 @@
     <favorites_list name="generator-ptor" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="16" selection-start="169" selection-end="169" vertical-scroll-proportion="0.051194537">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -79,7 +86,6 @@
         <option value="$PROJECT_DIR$/app/templates/_protractor-sauce.conf.coffee.js" />
         <option value="$PROJECT_DIR$/app/templates/_package.json" />
         <option value="$PROJECT_DIR$/app/index.js" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/app/templates/_README.md" />
         <option value="$PROJECT_DIR$/.travis.yaml" />
         <option value="$PROJECT_DIR$/package.json" />
@@ -88,6 +94,7 @@
         <option value="$PROJECT_DIR$/test/test-configuration.js" />
         <option value="$PROJECT_DIR$/test/test-creation.js" />
         <option value="$PROJECT_DIR$/node_modules/yeoman-generator/lib/test/helpers.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -196,14 +203,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="2" width="1301" height="766" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21752739" sideWeight="0.6704" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21752739" sideWeight="0.6704" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -313,13 +320,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="124" column="0" selection-start="3442" selection-end="3571" vertical-scroll-proportion="0.61604095">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="8" selection-start="45" selection-end="45" vertical-scroll-proportion="0.07512521">
@@ -369,6 +369,13 @@
     <entry file="file://$PROJECT_DIR$/node_modules/yeoman-generator/lib/test/helpers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="174" column="43" selection-start="4457" selection-end="4457" vertical-scroll-proportion="0.12353923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="16" selection-start="169" selection-end="169" vertical-scroll-proportion="0.051194537">
           <folding />
         </state>
       </provider>
