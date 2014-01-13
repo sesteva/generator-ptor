@@ -7,7 +7,7 @@ var yeoman = require('yeoman-generator');
 var ProtractorPageobjectsGenerator = module.exports = function ProtractorPageobjectsGenerator(args, options, config) {
     yeoman.generators.Base.apply(this, arguments);
 
-    this.appName = arguments[0] || 'test-with-protractor';
+    this.appName = arguments[0].length > 0 ? arguments[0]:'test-with-protractor';
 
     if (typeof this.env.options.appPath === 'undefined') {
         try {
@@ -60,14 +60,14 @@ ProtractorPageobjectsGenerator.prototype.askFor = function askFor() {
     var prompts = [
         {
             type: 'confirm',
-            name: 'someOption',
-            message: 'Would you like to enable this option?',
+            name: 'coffee',
+            message: 'Would you like to use CoffeeScript?',
             default: true
         }
     ];
 
     this.prompt(prompts, function (props) {
-        this.someOption = props.someOption;
+        this.env.options.coffee = props.coffee;
 
         cb();
     }.bind(this));

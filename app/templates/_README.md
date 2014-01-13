@@ -8,9 +8,12 @@
     mkdir projectName && cd projectName
     yo ptor "ProjectName"
 
-If you want to use CoffeeScript
+or
 
-    yo ptor "ProjectName" --coffee
+    yo ptor
+
+If you dont pass a name then package.json will take a generic name for the app.
+Yeoman will ask if you would like to user CoffeScript. If you say yes the sample and configuration files will be adapted for CoffeeScript.
 
 #### Explanation
 
