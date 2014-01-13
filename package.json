@@ -1,12 +1,12 @@
 {
-  "name": "generator-protractor-pageobjects",
+  "name": "generator-ptor",
   "version": "0.0.0",
   "description": "A generator for Yeoman",
   "keywords": [
     "yeoman-generator"
   ],
-  "homepage": "https://github.com/sesteva/generator-protractor-pageobjects",
-  "bugs": "https://github.com/sesteva/generator-protractor-pageobjects/issues",
+  "homepage": "https://github.com/sesteva/generator-ptor",
+  "bugs": "https://github.com/sesteva/generator-protractor-ptor/issues",
   "author": {
     "name": "Santiago Esteva",
     "email": "santiagoesteva@gmail.com",
@@ -15,7 +15,7 @@
   "main": "app/index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/sesteva/generator-protractor-pageobjects.git"
+    "url": "git://github.com/sesteva/generator-ptor.git"
   },
   "scripts": {
     "test": "mocha"
