@@ -23,9 +23,16 @@ module.exports = function (grunt) {
       },
       explorer: {
         tasks:[{cmd: "./bin/element_explorer.sh"}]
+      },
+      sauce: {
+        tasks: [{cmd: ".bin/test-sauce.sh"}]
       }
     }
   });
+
+  grunt.registerTask('test-sauce',[
+     'parallel:sauce'
+  ]);
 
   grunt.registerTask('test', [
     'parallel:selenium'
