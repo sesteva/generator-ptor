@@ -55,6 +55,7 @@ ProtractorPageobjectsGenerator.prototype.app = function app() {
   this.copy('_gitignore', '.gitignore');
   this.copy('_Gruntfile.js', 'Gruntfile.js');
   this.copy('_protractor.conf.js', 'protractor.conf.js');
+  this.copy('_protractor-sauce.conf.js', 'protractor-sauce.conf.js');
   this.copy('_README.md', 'README.md');
 
   this.mkdir('pageObjects');
@@ -69,6 +70,7 @@ ProtractorPageobjectsGenerator.prototype.binFiles = function binFiles() {
   this.copy('bin/_install.sh', 'bin/install.sh');
   this.copy('bin/_selenium-server.sh', 'bin/selenium-server.sh');
   this.copy('bin/_test.sh', 'bin/test.sh');
+  this.copy('bin/_test-sauce.sh', 'bin/test-sauce.sh');
   this.copy('bin/_element_explorer.sh', 'bin/element_explorer.sh');
 };
 

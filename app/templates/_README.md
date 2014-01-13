@@ -36,3 +36,16 @@ This script is actually doing the following steps:
 2- Running protractor
 
    ./bin/test.sh
+
+### Execute Tests remotely using Sauce Labs.
+
+   1- Update the protractor-sauce.conf.js adding your user and key provided by Sauce Labs.
+   2- From your command line run
+
+        grunt test-sauce
+
+#### Explanation
+
+This script is actually doing the following steps:
+
+    1- ./bin/test-sauce.sh
