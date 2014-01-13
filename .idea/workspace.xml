@@ -4,7 +4,6 @@
     <list default="true" id="03f7e035-7f22-4246-9c93-75deae9fc1fe" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/_README.md" afterPath="$PROJECT_DIR$/app/templates/_README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.js" afterPath="$PROJECT_DIR$/app/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="generator-ptor.iws" />
@@ -20,7 +19,7 @@
     <file path="/_pageObject.js" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389633238846" ignored="false" />
     <file path="/a.dummy" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389640400604" ignored="false" />
     <file path="/pageObject.coffee" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389633583405" ignored="false" />
-    <file path="/_README.md" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389642785873" ignored="false" />
+    <file path="/_README.md" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389650588897" ignored="false" />
     <file path="/spec.coffee" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389637686152" ignored="false" />
     <file path="$USER_HOME$/temp/Gruntfile.js" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389640213361" ignored="false" />
     <file path="/Gruntfile.js" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389639366235" ignored="false" />
@@ -31,6 +30,7 @@
     <file path="$USER_HOME$/temp/specs/builtWithAngularSpec.coffee" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389640106767" ignored="false" />
     <file path="/protractor-sauce.conf.js" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389640500609" ignored="false" />
     <file path="$USER_HOME$/temp/lib/pageObject.js" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389640532551" ignored="false" />
+    <file path="/README.md" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389650560215" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,16 +80,16 @@
         <option value="$PROJECT_DIR$/app/templates/_protractor.conf.coffee.js" />
         <option value="$PROJECT_DIR$/app/templates/_protractor-sauce.conf.coffee.js" />
         <option value="$PROJECT_DIR$/app/templates/_package.json" />
-        <option value="$PROJECT_DIR$/app/templates/_README.md" />
         <option value="$PROJECT_DIR$/app/index.js" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/app/templates/_README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="55" />
+    <option name="x" value="65" />
     <option name="y" value="2" />
-    <option name="width" value="1311" />
+    <option name="width" value="1301" />
     <option name="height" value="766" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -151,6 +151,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generator-ptor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generator-ptor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -183,7 +201,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="2" width="1311" height="766" extended-state="6" />
+    <frame x="65" y="2" width="1301" height="766" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -191,7 +209,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2158385" sideWeight="0.6704" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21752739" sideWeight="0.6704" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -266,13 +284,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spec/templates/spec.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="10" selection-start="10" selection-end="21" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page/templates/pageObject.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="36" selection-start="244" selection-end="244" vertical-scroll-proportion="0.25041735">
@@ -350,13 +361,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/_README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="257" selection-end="257" vertical-scroll-proportion="0.38395905">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test-creation.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="33" selection-start="257" selection-end="257" vertical-scroll-proportion="0.22537562">
@@ -373,9 +377,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/editorconfig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/_README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="3" selection-start="2326" selection-end="2326" vertical-scroll-proportion="0.84641635">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="44" selection-start="776" selection-end="776" vertical-scroll-proportion="0.43515357">
+        <state line="124" column="0" selection-start="3442" selection-end="3571" vertical-scroll-proportion="0.79522187">
           <folding />
         </state>
       </provider>

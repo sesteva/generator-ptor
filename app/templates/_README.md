@@ -93,3 +93,9 @@ Wait for the server to come up and on a second tab:
 This script is actually doing the following steps:
 
     1- ./bin/test-sauce.sh
+
+### Generator Development Notes
+
+    sudo npm link
+    sudo npm ls --global generator-ptor
+    sudo npm rm --global generator-ptor
