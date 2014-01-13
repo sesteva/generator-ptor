@@ -1,4 +1,4 @@
-describe ("Test", function(){
+describe ("<%= name %> Test", function(){
 
   var page = require('../pageObjects/builtwithangular.js');
 

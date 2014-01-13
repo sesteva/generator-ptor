@@ -1,6 +1,15 @@
-### Setup
+### A- Install the generator
 
-    ./bin/install.sh
+    git clone ""
+    sudo npm link
+
+### B- Creating a Project
+
+    yo ptor "ProjectName"
+
+If you want to use CoffeeScript
+
+    yo ptor "ProjectName" --coffee
 
 #### Explanation
 
@@ -10,15 +19,36 @@ This script is actually doing the following steps:
 
     npm install
 
-2- Install selenium standalon server and chrome driver
+2- Install selenium standalon server and chrome driver (./bin/install.sh)
 
     ./node_modules/protractor/bin/webdriver-manager update
 
-### Configuration
+### C- Configuration
 
 protractor.conf.js
+protractor-sauce.conf.js
 
-### Execute Tests locally using standalone Selenium server
+### D- Creating a Spec
+
+    yo ptor:spec "TestName"
+
+Yeoman will generate the file TestNameSpec.js under specs folder.
+
+If you already have a CoffeeScript inside your Spec folder, then Yeoman will create a coffeescript pageObject for you.
+If you dont and you would like to force the coffeescript creation, you may run:
+
+    yo ptor:spec "TestName" --coffee
+
+### E- Creating a page Object
+
+    yo ptor:page "PageName"
+
+If you already have a CoffeeScript inside your pageObjects folder, then Yeoman will create a coffeescript pageObject for you.
+If you dont and you would like to force the coffeescript creation, you may run:
+
+    yo ptor:page "PageName" --coffee
+
+### D- Execute Tests locally using standalone Selenium server
 
 1- Make sure your application is running
 2- Run
@@ -36,6 +66,15 @@ This script is actually doing the following steps:
 2- Running protractor
 
    ./bin/test.sh
+
+**Note:** Depending on your machine sometimes the test starts running before the selenium server actually started.
+If this occurs to you, then on one terminal tab run:
+
+    ./bin/selenium-server.sh
+
+Wait for the server to come up and on a second tab:
+
+    ./bin/test.sh
 
 ### Execute Tests remotely using Sauce Labs.
 
