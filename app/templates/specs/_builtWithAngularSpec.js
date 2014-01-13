@@ -1,6 +1,6 @@
 describe ("Built With Angular", function(){
 
-  var page = require('../pageObjects/builtwithangular.js');
+  var page = require('../pageObjects/builtWithAngular.js');
 
   beforeEach(function() {
     page.go("http://builtwith.angularjs.org/");

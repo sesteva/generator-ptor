@@ -1,6 +1,6 @@
 describe "Built With Angular", ->
 
-  page = require("../pageObjects/builtwithangular.js")
+  page = require("../pageObjects/builtWithAngular.js")
 
   beforeEach ->
     page.go "http://builtwith.angularjs.org/"
