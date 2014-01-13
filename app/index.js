@@ -81,9 +81,9 @@ ProtractorPageobjectsGenerator.prototype.app = function app() {
     this.copy('_gitignore', '.gitignore');
     this.copy('_Gruntfile.js', 'Gruntfile.js');
 
-    var nature = this.env.options.coffee?'.coffee':'.js';
-    this.copy('_protractor.conf' + nature + '.js', 'protractor.conf.js');
-    this.copy('_protractor-sauce.conf' + nature + '.js', 'protractor-sauce.conf.js');
+    var extension = this.env.options.coffee?'.coffee.js':'.js';
+    this.copy('_protractor.conf' + extension, 'protractor.conf.js');
+    this.copy('_protractor-sauce.conf' + extension, 'protractor-sauce.conf.js');
 
     this.copy('_README.md', 'README.md');
 

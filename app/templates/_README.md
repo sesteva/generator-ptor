@@ -5,6 +5,7 @@
 
 ### B- Creating a Project
 
+    mkdir projectName && cd projectName
     yo ptor "ProjectName"
 
 If you want to use CoffeeScript
