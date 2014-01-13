@@ -23,10 +23,6 @@ $ npm install -g yo
 
 Yeoman travels light. He didn't pack any generators when he moved in. You can think of a generator like a plug-in. You get to choose what type of application you wish to create, such as a Backbone application or even a Chrome extension.
 
-## License
-
-[MIT License](http://en.wikipedia.org/wiki/MIT_License)
-
 ## A- Install the generator
 
 (As a temporary location while we publish it as npm module)
@@ -124,3 +120,7 @@ Wait for the server to come up and on a second tab:
 This script is actually doing the following steps:
 
     1- ./bin/test-sauce.sh
+
+## License
+
+[MIT License](http://en.wikipedia.org/wiki/MIT_License)
