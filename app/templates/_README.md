@@ -53,7 +53,7 @@ If you dont and you would like to force the coffeescript creation, you may run:
 
     yo ptor:page "PageName" --coffee
 
-### D- Execute Tests locally using standalone Selenium server
+### F- Execute Tests locally using standalone Selenium server
 
 1- Make sure your application is running
 2- Run
