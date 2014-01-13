@@ -17,12 +17,7 @@ var PageObject = function () {
 //    you may access the wrapped webdriver instance directly
         driver: function () {
             return protractor.getInstance();
-        },
-//    In CoffeeScript by is a keyword. Therefore we cannot use 'element by.model)
-        by_: function () {
-            return protractor.By;
         }
-
     }
 };
 
