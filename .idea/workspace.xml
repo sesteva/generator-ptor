@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03f7e035-7f22-4246-9c93-75deae9fc1fe" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/_README.md" afterPath="$PROJECT_DIR$/app/templates/_README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/_package.json" afterPath="$PROJECT_DIR$/app/templates/_package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.js" afterPath="$PROJECT_DIR$/app/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -13,8 +13,8 @@
     <file path="/_Gruntfile.js" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389628202701" ignored="false" />
     <file path="$USER_HOME$/project/labradoodle/labrador-docs/testing/_posts/2013-11-07-test-bau.md" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389629418355" ignored="false" />
     <file path="/2013-11-07-test-bau.md" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389629403628" ignored="false" />
-    <file path="/_package.json" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389638544266" ignored="false" />
-    <file path="/index.js" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389641938512" ignored="false" />
+    <file path="/_package.json" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389642297561" ignored="false" />
+    <file path="/index.js" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389642312335" ignored="false" />
     <file path="/_builtWithAngular.coffee" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389633252588" ignored="false" />
     <file path="/_pageObject.js" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389633238846" ignored="false" />
     <file path="/a.dummy" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389640400604" ignored="false" />
@@ -49,10 +49,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/index.js">
+      <file leaf-file-name="_README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/templates/_README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="50" selection-start="2644" selection-end="2644" vertical-scroll-proportion="0.47579297">
+            <state line="8" column="25" selection-start="158" selection-end="158" vertical-scroll-proportion="0.2003339">
               <folding />
             </state>
           </provider>
@@ -81,7 +81,6 @@
         <option value="$PROJECT_DIR$/spec/index.js" />
         <option value="$PROJECT_DIR$/spec/templates/spec.coffee" />
         <option value="$PROJECT_DIR$/spec/templates/spec.js" />
-        <option value="$PROJECT_DIR$/app/templates/_package.json" />
         <option value="$PROJECT_DIR$/app/templates/_protractor.conf.js" />
         <option value="$PROJECT_DIR$/app/templates/_protractor-sauce.conf.js" />
         <option value="$PROJECT_DIR$/app/templates/_Gruntfile.js" />
@@ -91,6 +90,7 @@
         <option value="$PROJECT_DIR$/app/templates/_protractor.conf.coffee.js" />
         <option value="$PROJECT_DIR$/app/templates/_protractor-sauce.conf.coffee.js" />
         <option value="$PROJECT_DIR$/app/templates/_README.md" />
+        <option value="$PROJECT_DIR$/app/templates/_package.json" />
         <option value="$PROJECT_DIR$/app/index.js" />
       </list>
     </option>
@@ -321,13 +321,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/_package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="4" selection-start="383" selection-end="383" vertical-scroll-proportion="0.3652174">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/_protractor-sauce.conf.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="33" selection-start="0" selection-end="594" vertical-scroll-proportion="0.4006678">
@@ -391,16 +384,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/_README.md">
+    <entry file="file://$PROJECT_DIR$/app/templates/_package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="39" selection-start="158" selection-end="158" vertical-scroll-proportion="0.2003339">
+        <state line="1" column="22" selection-start="17" selection-end="24" vertical-scroll-proportion="0.026086956">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="50" selection-start="2644" selection-end="2644" vertical-scroll-proportion="0.47579297">
+        <state line="9" column="58" selection-start="343" selection-end="343" vertical-scroll-proportion="0.22537562">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/_README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="25" selection-start="158" selection-end="158" vertical-scroll-proportion="0.2003339">
           <folding />
         </state>
       </provider>

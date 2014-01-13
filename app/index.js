@@ -7,6 +7,8 @@ var yeoman = require('yeoman-generator');
 var ProtractorPageobjectsGenerator = module.exports = function ProtractorPageobjectsGenerator(args, options, config) {
     yeoman.generators.Base.apply(this, arguments);
 
+    this.appName = arguments[0] || 'test-with-protractor';
+
     if (typeof this.env.options.appPath === 'undefined') {
         try {
             this.env.options.appPath = require(path.join(process.cwd(), 'bower.json')).appPath;
@@ -72,8 +74,6 @@ ProtractorPageobjectsGenerator.prototype.askFor = function askFor() {
 };
 
 ProtractorPageobjectsGenerator.prototype.app = function app() {
-    this.mkdir('app');
-    this.mkdir('app/templates');
 
     this.copy('_package.json', 'package.json');
     this.copy('_bower.json', 'bower.json');

@@ -1,5 +1,5 @@
 {
-  "name": "test-protractor",
+  "name": "<%= appName %>",
   "version": "0.0.0",
   "devDependencies": {
     "protractor": "0.15.0",
