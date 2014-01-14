@@ -1,6 +1,6 @@
 describe ("<%= name %> Test", function(){
 
-  var page = require('../pageObjects/builtwithangular.js');
+  var page = require('../pageObjects/builtWithAngular.js');
 
   beforeEach(function() {
 

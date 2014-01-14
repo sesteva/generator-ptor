@@ -1,6 +1,6 @@
 describe "<%= name %> Test", ->
 
-  page = require("../pageObjects/builtwithangular.js")
+  page = require("../pageObjects/builtWithAngular.js")
 
   beforeEach ->
     #    Example
