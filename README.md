@@ -108,10 +108,10 @@ Wait for the server to come up and on a second tab:
 
     ./bin/test.sh
 
-### Execute Tests remotely using Sauce Labs.
+### Execute Tests remotely using Sauce Labs with Multiple Browsers.
 
-   1- Update the protractor-sauce.conf.js adding your user and key provided by Sauce Labs.
-   2- From your command line run
+1- Update the protractor-sauce.conf.js adding your user and key provided by Sauce Labs.
+2- From your command line run
 
         grunt test-sauce
 
@@ -119,7 +119,44 @@ Wait for the server to come up and on a second tab:
 
 This script is actually doing the following steps:
 
-    1- ./bin/test-sauce.sh
+    ./bin/test-sauce.sh
+
+The configuration is in Gruntfile.js where we create two parallel executions with different arguments. Example:
+
+    sauce: {
+        tasks: [
+            {cmd: "./bin/test-sauce.sh", args: ['--capabilities.browserName=safari']},
+            {cmd: "./bin/test-sauce.sh", args: ['--capabilities.browserName=firefox']}
+        ]
+    }
+
+### Execute Tests remotely using Sauce Labs per Browser
+
+1- Make sure protractor-sauce.conf.js contains the user/key for sauce labs.
+2- From Jenkins' job command line
+
+    grunt test-sauce-browser --browser=safari
+
+### Executing from Jenkins/Travis
+
+#### Option 1
+
+We could setup multiple jobs each one running on a different browser.
+This provides granular feedback and the benefit of running in parallel.
+
+Job 1:
+
+    grunt test-sauce-browser --browser=safari
+
+Job 2:
+
+    grunt test-sauce-browser --browser=firefox
+
+#### Option 2
+
+We could have a unique job running on multiple browsers.
+
+    grunt test-sauce
 
 
 ## Generator Development Notes

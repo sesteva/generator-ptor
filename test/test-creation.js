@@ -34,6 +34,7 @@ describe('ptor generator', function () {
             'bin/selenium-server.sh',
             'bin/test.sh',
             'bin/test-sauce.sh',
+            'bin/test-sauce-browser.sh',
             'lib/pageObject.js',
             'pageObjects/builtWithAngular.coffee',
             'specs/builtWithAngularSpec.coffee'
@@ -66,6 +67,7 @@ describe('ptor generator', function () {
             'bin/selenium-server.sh',
             'bin/test.sh',
             'bin/test-sauce.sh',
+            'bin/test-sauce-browser.sh',
             'lib/pageObject.js',
             'pageObjects/builtWithAngular.js',
             'specs/builtWithAngularSpec.js'

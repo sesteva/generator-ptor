@@ -70,10 +70,23 @@ module.exports = function (grunt) {
             },
             sauce: {
                 tasks: [
-                    {cmd: "./bin/test-sauce.sh"}
+                    {cmd: "./bin/test-sauce.sh", args: ['--capabilities.browserName=safari']},
+                    {cmd: "./bin/test-sauce.sh", args: ['--capabilities.browserName=chrome']},
+                    {cmd: "./bin/test-sauce.sh", args: ['--capabilities.browserName=firefox']}
                 ]
+            },
+            sauceBrowser: {
+                tasks: [{cmd: "./bin/test-sauce-browser.sh", args: ['<%=grunt.option(\'browser\')%>']}]
             }
         }
+    });
+
+    grunt.registerTask('test-sauce-browser','test only with this browser', function(n){
+        var browser = grunt.option('browser');
+        if (typeof browser == 'undefined') {
+            grunt.warn('Browser parameter must be specified, like --browser=firefox.');
+        }
+        grunt.task.run('test-setup', 'parallel:sauceBrowser');
     });
 
     grunt.registerTask('test-setup', [

@@ -100,6 +100,7 @@ ProtractorPageobjectsGenerator.prototype.binFiles = function binFiles() {
     this.copy('bin/_selenium-server.sh', 'bin/selenium-server.sh');
     this.copy('bin/_test.sh', 'bin/test.sh');
     this.copy('bin/_test-sauce.sh', 'bin/test-sauce.sh');
+    this.copy('bin/_test-sauce-browser.sh', 'bin/test-sauce-browser.sh');
     this.copy('bin/_element_explorer.sh', 'bin/element_explorer.sh');
 };
 

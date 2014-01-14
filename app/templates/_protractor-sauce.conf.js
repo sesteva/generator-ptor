@@ -6,12 +6,6 @@ exports.config = {
     sauceUser: 'user',
     sauceKey: 'key',
 
-
-    // Capabilities to be passed to the webdriver instance.
-    capabilities: {
-        'browserName': 'chrome'
-    },
-
     // Spec patterns are relative to the current working directly when
     // protractor is called.
     specs: ['specs/*.js'],
