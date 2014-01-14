@@ -28,27 +28,27 @@ Yeoman travels light. He didn't pack any generators when he moved in. You can th
 
 1- Folder Structure
 
-├── bin
-│   ├── element_explorer.sh
-│   ├── install.sh
-│   ├── selenium-server.sh
-│   ├── test-sauce-browser.sh
-│   ├── test-sauce.sh
-│   └── test.sh
-├── bower.json
-├── Gruntfile.js
-├── lib
-│   └── pageObject.js
-├── node_modules
-│   ├── [...]
-├── package.json
-├── pageObjects
-│   └── builtWithAngular.js/coffee
-├── protractor.conf.js
-├── protractor-sauce.conf.js
-├── README.md
-└── specs
-    └── builtWithAngularSpec.js/coffee
+        ├── bin
+        │   ├── element_explorer.sh
+        │   ├── install.sh
+        │   ├── selenium-server.sh
+        │   ├── test-sauce-browser.sh
+        │   ├── test-sauce.sh
+        │   └── test.sh
+        ├── bower.json
+        ├── Gruntfile.js
+        ├── lib
+        │   └── pageObject.js
+        ├── node_modules
+        │   ├── [...]
+        ├── package.json
+        ├── pageObjects
+        │   └── builtWithAngular.js/coffee
+        ├── protractor.conf.js
+        ├── protractor-sauce.conf.js
+        ├── README.md
+        └── specs
+            └── builtWithAngularSpec.js/coffee
 
 
 2- Project Generation script includes downloading all moving parts to get a StandAlone Selenium Server and the Chrome Driver.
