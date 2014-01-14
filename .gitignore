@@ -1,3 +1,4 @@
 .idea
 .idea/workspace.xml
 test/temp/
+node_modules
