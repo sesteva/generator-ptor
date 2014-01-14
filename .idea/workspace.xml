@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03f7e035-7f22-4246-9c93-75deae9fc1fe" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/_Gruntfile.js" afterPath="$PROJECT_DIR$/app/templates/_Gruntfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/_protractor-sauce.conf.coffee.js" afterPath="$PROJECT_DIR$/app/templates/_protractor-sauce.conf.coffee.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/_protractor-sauce.conf.js" afterPath="$PROJECT_DIR$/app/templates/_protractor-sauce.conf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/bin/_test-sauce.sh" afterPath="$PROJECT_DIR$/app/templates/bin/_test-sauce.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.js" afterPath="$PROJECT_DIR$/app/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-creation.js" afterPath="$PROJECT_DIR$/test/test-creation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/_package.json" afterPath="$PROJECT_DIR$/app/templates/_package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="generator-ptor.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -21,30 +16,42 @@
     <file path="/index.js" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389648869451" ignored="false" />
     <file path="/_builtWithAngular.coffee" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389633252588" ignored="false" />
     <file path="/_pageObject.js" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389633238846" ignored="false" />
-    <file path="/a.dummy" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389659603731" ignored="false" />
+    <file path="/a.dummy" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389669445387" ignored="false" />
     <file path="/pageObject.coffee" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389633583405" ignored="false" />
-    <file path="/_README.md" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389650588897" ignored="false" />
+    <file path="/_README.md" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389720549678" ignored="false" />
     <file path="/spec.coffee" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389637686152" ignored="false" />
-    <file path="$USER_HOME$/temp/Gruntfile.js" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389667930935" ignored="false" />
+    <file path="$USER_HOME$/temp/Gruntfile.js" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389722592793" ignored="false" />
     <file path="/Gruntfile.js" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389667914454" ignored="false" />
-    <file path="$USER_HOME$/temp/package.json" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389639142580" ignored="false" />
-    <file path="$USER_HOME$/temp/.tmp/specs/builtWithAngularSpec.js" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389640243597" ignored="false" />
+    <file path="$USER_HOME$/temp/package.json" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389722592793" ignored="false" />
+    <file path="$USER_HOME$/temp/.tmp/specs/builtWithAngularSpec.js" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389722656820" ignored="false" />
     <file path="$USER_HOME$/temp/protractor.conf.js" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389640749798" ignored="false" />
-    <file path="$USER_HOME$/temp/protractor-sauce.conf.js" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389664802038" ignored="false" />
-    <file path="$USER_HOME$/temp/specs/builtWithAngularSpec.coffee" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389640106767" ignored="false" />
+    <file path="$USER_HOME$/temp/protractor-sauce.conf.js" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389722592793" ignored="false" />
+    <file path="$USER_HOME$/temp/specs/builtWithAngularSpec.coffee" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389722592793" ignored="false" />
     <file path="/protractor-sauce.conf.js" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389661933213" ignored="false" />
-    <file path="$USER_HOME$/temp/lib/pageObject.js" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389640532551" ignored="false" />
-    <file path="/README.md" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389668506523" ignored="false" />
+    <file path="$USER_HOME$/temp/lib/pageObject.js" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389723324998" ignored="false" />
+    <file path="/README.md" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389724954396" ignored="false" />
     <file path="/test-creation.js" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389654969678" ignored="false" />
     <file path="/.gitignore" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389657443748" ignored="false" />
     <file path="/test-configuration.js" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389656212538" ignored="false" />
     <file path="/helpers.js" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389655680376" ignored="false" />
     <file path="/package.json" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389658084279" ignored="false" />
-    <file path="$USER_HOME$/temp/node_modules/protractor/package.json" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389659984641" ignored="false" />
-    <file path="$USER_HOME$/temp/bin/test-sauce.sh" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389668009001" ignored="false" />
+    <file path="$USER_HOME$/temp/node_modules/protractor/package.json" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389722592793" ignored="false" />
+    <file path="$USER_HOME$/temp/bin/test-sauce.sh" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389722592793" ignored="false" />
     <file path="/test-sauce.sh" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389666112211" ignored="false" />
-    <file path="$USER_HOME$/temp/bin/test-sauce-browser.sh" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389666981114" ignored="false" />
+    <file path="$USER_HOME$/temp/bin/test-sauce-browser.sh" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389722592793" ignored="false" />
     <file path="/test-sauce-browser.sh" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389666938378" ignored="false" />
+    <file path="$USER_HOME$/temp/lib/po.js" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389719336113" ignored="false" />
+    <file path="/po.js" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389717312958" ignored="false" />
+    <file path="$USER_HOME$/temp/pageObjects/builtWithAngular.coffee" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389722592793" ignored="false" />
+    <file path="/builtWithAngularSpec.coffee" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389718156769" ignored="false" />
+    <file path="$USER_HOME$/temp/bin/test.sh" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389722592793" ignored="false" />
+    <file path="/test.sh" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389717689760" ignored="false" />
+    <file path="/builtWithAngularSpec.js" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389719251382" ignored="false" />
+    <file path="$USER_HOME$/temp/README.md" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389722592793" ignored="false" />
+    <file path="$USER_HOME$/temp/node_modules/protractor/node_modules/selenium-webdriver/package.json" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389722592793" ignored="false" />
+    <file path="$USER_HOME$/temp/.tmp/lib/pageObject.js" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389723887998" ignored="false" />
+    <file path="$USER_HOME$/temp/.tmp/pageObjects/builtWithAngular.js" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389722656820" ignored="false" />
+    <file path="/pageObject.js" changelist="03f7e035-7f22-4246-9c93-75deae9fc1fe" time="1389723886339" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +70,17 @@
     <favorites_list name="generator-ptor" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="_package.json" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/templates/_package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="4" selection-start="275" selection-end="275" vertical-scroll-proportion="0.28695652">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -81,11 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/templates/_README.md" />
-        <option value="$PROJECT_DIR$/.travis.yaml" />
-        <option value="$PROJECT_DIR$/test/test-load.js" />
-        <option value="$PROJECT_DIR$/test/test-configuration.js" />
-        <option value="$PROJECT_DIR$/node_modules/yeoman-generator/lib/test/helpers.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/node_modules/mocha/package.json" />
         <option value="$PROJECT_DIR$/package.json" />
@@ -96,7 +108,12 @@
         <option value="$PROJECT_DIR$/test/test-creation.js" />
         <option value="$PROJECT_DIR$/app/templates/bin/_test-sauce-browser.sh" />
         <option value="$PROJECT_DIR$/app/templates/_Gruntfile.js" />
+        <option value="$PROJECT_DIR$/app/templates/_README.md" />
+        <option value="$PROJECT_DIR$/spec/templates/spec.coffee" />
+        <option value="$PROJECT_DIR$/spec/templates/spec.js" />
+        <option value="$PROJECT_DIR$/app/templates/lib/_pageObject.js" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/app/templates/_package.json" />
       </list>
     </option>
   </component>
@@ -189,6 +206,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="GoToClass.includeJavaFiles" value="false" />
   </component>
@@ -214,6 +232,23 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="03f7e035-7f22-4246-9c93-75deae9fc1fe" name="Default" comment="" />
@@ -224,14 +259,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="2" width="1301" height="766" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21752739" sideWeight="0.6704" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21752739" sideWeight="0.6704" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -306,69 +342,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="9" selection-start="46" selection-end="46" vertical-scroll-proportion="0.07512521">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/mocha/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="5" selection-start="566" selection-end="566" vertical-scroll-proportion="0.3539326">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/.bin/_mocha">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="23" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/yeoman-generator/readme.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/yeoman-generator/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="30" selection-start="617" selection-end="617" vertical-scroll-proportion="0.63414633">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/lib/_pageObject.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/_protractor-sauce.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="204" selection-end="204" vertical-scroll-proportion="0.3053435">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/_protractor-sauce.conf.coffee.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="204" selection-end="204" vertical-scroll-proportion="0.3053435">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/bin/_test-sauce.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="55" selection-start="65" selection-end="65" vertical-scroll-proportion="0.03816794">
@@ -399,23 +372,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/_README.md">
+    <entry file="file://$PROJECT_DIR$/app/templates/_Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="30" selection-start="1925" selection-end="1925" vertical-scroll-proportion="0.2320819">
+        <state line="89" column="32" selection-start="2753" selection-end="2753" vertical-scroll-proportion="2.1018364">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/_Gruntfile.js">
+    <entry file="file://$PROJECT_DIR$/app/templates/_protractor-sauce.conf.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="32" selection-start="2753" selection-end="2753" vertical-scroll-proportion="0.24874792">
+        <state line="8" column="0" selection-start="204" selection-end="204" vertical-scroll-proportion="0.2003339">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/_protractor-sauce.conf.coffee.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="9" selection-start="512" selection-end="512" vertical-scroll-proportion="0.45075125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/_README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="116" column="20" selection-start="3154" selection-end="3154" vertical-scroll-proportion="2.9692833">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/templates/spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="53" selection-start="96" selection-end="96" vertical-scroll-proportion="0.050083473">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/templates/pageObject.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/templates/pageObject.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/lib/_pageObject.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="53" selection-start="585" selection-end="585" vertical-scroll-proportion="0.6010017">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/templates/spec.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="43" selection-start="66" selection-end="82" vertical-scroll-proportion="0.050083473">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="45" column="71" selection-start="1507" selection-end="1507" vertical-scroll-proportion="0.46245733">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="30" selection-start="617" selection-end="617" vertical-scroll-proportion="0.3478261">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/_package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="4" selection-start="275" selection-end="275" vertical-scroll-proportion="0.28695652">
           <folding />
         </state>
       </provider>
