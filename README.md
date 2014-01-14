@@ -23,6 +23,64 @@ $ npm install -g yo
 
 Yeoman travels light. He didn't pack any generators when he moved in. You can think of a generator like a plug-in. You get to choose what type of application you wish to create, such as a Backbone application or even a Chrome extension.
 
+
+## What does this generator provide?
+
+1- Folder Structure
+
+|-- bin
+|    |-- element_explorer.sh
+|    |-- install.sh
+|    |-- selenium_server.sh
+|    |-- test.sh
+|    |-- test-sauce.sh
+|    |-- test-sauce-browser.sh
+|
+|-- lib
+|    |-- pageObject.js
+|
+|-- pageObjects
+|    |-- sample.js / sample.coffee
+|
+|-- specs
+|    |-- sampleSpec.js / sampleSpec.coffee
+|
+|-- bower.json
+|-- .gitignore
+|-- Gruntfile.json
+|-- package.json
+|-- protractor.conf.js
+|-- protractor-sauce.conf.js
+|-- README.md
+|-- .editorconfig
+|-- .jshintrc
+
+
+2- Project Generation script includes downloading all moving parts to get a StandAlone Selenium Server and the Chrome Driver.
+
+3- PageObject and Spec Generators for Javascript and CoffeeScript. See points C and D below.
+
+4- PageObject and Spec Samples for Javascript and CoffeeScript.
+
+5- Protractor configuration for sauce labs and standalone server. Adapted for CS and JS.
+
+6- Yeoman will prompt the user to select between JS and CS. It will adapt files and configuration based on selection.
+
+7- Gruntfile + some convenience Shell Scripts already configured and setup.
+Such as a Grunt task to run same test in multiple browsers and a different task to pass the browser name by parameters.
+
+8- A small pageObject factory is included to reduce boilerplate on PageObject definitions. This will be turned into an optional dependency soon.
+
+9- README file containing instructions on:
+
+    - how to install the generator;
+    - usage to create a new project, page and spec;
+    - how to run the tests locally, remotely;
+    - how to test a suite in a defined browser via parameter or in a pre-configured set of browsers.
+    - how to debug the test using WebStorm
+    - CI job integration approaches.
+
+
 ## A- Install the generator
 
 (As a temporary location while we publish it as npm module)
@@ -51,16 +109,11 @@ This script is actually doing the following steps:
 
     npm install
 
-2- Install selenium standalon server and chrome driver (./bin/install.sh)
+2- Install selenium standalone server and chrome driver (./bin/install.sh)
 
     ./node_modules/protractor/bin/webdriver-manager update
 
-## C- Configuration
-
-protractor.conf.js
-protractor-sauce.conf.js
-
-## D- Creating a Spec
+## C- Creating a Spec
 
     yo ptor:spec "TestName"
 
@@ -71,7 +124,7 @@ If you dont and you would like to force the coffeescript creation, you may run:
 
     yo ptor:spec "TestName" --coffee
 
-## E- Creating a page Object
+## D- Creating a page Object
 
     yo ptor:page "PageName"
 
@@ -80,89 +133,18 @@ If you dont and you would like to force the coffeescript creation, you may run:
 
     yo ptor:page "PageName" --coffee
 
-## F- Execute Tests locally using standalone Selenium server
-
-1- Make sure your application is running
-2- Run
-
-    grunt test
-
-#### Explanation
-
-This script is actually doing the following steps:
-
-1- Start selenium server
-
-   ./bin/selenium-server.sh
-
-2- Running protractor
-
-   ./bin/test.sh
-
-**Note:** Depending on your machine sometimes the test starts running before the selenium server actually started.
-If this occurs to you, then on one terminal tab run:
-
-    ./bin/selenium-server.sh
-
-Wait for the server to come up and on a second tab:
-
-    ./bin/test.sh
-
-### Execute Tests remotely using Sauce Labs with Multiple Browsers.
-
-1- Update the protractor-sauce.conf.js adding your user and key provided by Sauce Labs.
-2- From your command line run
-
-        grunt test-sauce
-
-#### Explanation
-
-This script is actually doing the following steps:
-
-    ./bin/test-sauce.sh
-
-The configuration is in Gruntfile.js where we create two parallel executions with different arguments. Example:
-
-    sauce: {
-        tasks: [
-            {cmd: "./bin/test-sauce.sh", args: ['--capabilities.browserName=safari']},
-            {cmd: "./bin/test-sauce.sh", args: ['--capabilities.browserName=firefox']}
-        ]
-    }
-
-### Execute Tests remotely using Sauce Labs per Browser
-
-1- Make sure protractor-sauce.conf.js contains the user/key for sauce labs.
-2- From Jenkins' job command line
-
-    grunt test-sauce-browser --browser=safari
-
-### Executing from Jenkins/Travis
-
-#### Option 1
-
-We could setup multiple jobs each one running on a different browser.
-This provides granular feedback and the benefit of running in parallel.
-
-Job 1:
-
-    grunt test-sauce-browser --browser=safari
-
-Job 2:
-
-    grunt test-sauce-browser --browser=firefox
-
-#### Option 2
-
-We could have a unique job running on multiple browsers.
-
-    grunt test-sauce
-
-
 ## Generator Development Notes
 
+Install package locally:
+
     sudo npm link
+
+Verify if package is installed
+
     sudo npm ls --global generator-ptor
+
+Remove package
+
     sudo npm rm --global generator-ptor
 
 ## License

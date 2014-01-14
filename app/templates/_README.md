@@ -94,8 +94,70 @@ This script is actually doing the following steps:
 
     1- ./bin/test-sauce.sh
 
-### Generator Development Notes
+The configuration is in Gruntfile.js where we create two parallel executions with different arguments. Example:
+
+    sauce: {
+        tasks: [
+            {cmd: "./bin/test-sauce.sh", args: ['--capabilities.browserName=safari']},
+            {cmd: "./bin/test-sauce.sh", args: ['--capabilities.browserName=firefox']}
+        ]
+    }
+
+### Execute Tests remotely using Sauce Labs per Browser
+
+1- Make sure protractor-sauce.conf.js contains the user/key for sauce labs.
+2- From Jenkins' job command line
+
+    grunt test-sauce-browser --browser=safari
+
+### Debugging protractor tests with WebStorm
+
+This is only one possibility. Read the following do to analyze all options. [https://github.com/angular/protractor/blob/master/docs/debugging.md](https://github.com/angular/protractor/blob/master/docs/debugging.md)
+
+1. Open Run/Debug Configurations dialog
+2. Add new Node.js configuration
+3. On Configuration tab set:
+ - **Path to Node**: path to node executable . e.g. '/usr/bin/node'
+ - **Working directory**: your project base path e.g. '/usr/sesteva/temp'
+ - **Path To Node JS App file**: path to Protractor cli.js file (e.g. *node_modules\protractor\lib\cli.js*)
+ - **Application parameters**: path to your Protractor configuration file (e.g.
+ *protractorConfig.js*)
+4. Click OK, place some breakpoints on your js files.
+5. Click on Debug from the Run menu.
+
+#### If you are using CoffeeScript
+
+The only difference would be to just set the breakpoints on the generated JS files under .tmp folder
+
+
+### Executing from Jenkins/Travis
+
+#### Option 1
+
+We could setup multiple jobs each one running on a different browser.
+This provides granular feedback and the benefit of running in parallel.
+
+Job 1:
+
+    grunt test-sauce-browser --browser=safari
+
+Job 2:
+
+    grunt test-sauce-browser --browser=firefox
+
+#### Option 2
+
+We could have a unique job running on multiple browsers.
+
+    grunt test-sauce
+
+
+## Generator Development Notes
 
     sudo npm link
     sudo npm ls --global generator-ptor
     sudo npm rm --global generator-ptor
+
+## License
+
+[MIT License](http://en.wikipedia.org/wiki/MIT_License)
