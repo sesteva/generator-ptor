@@ -1,8 +1,6 @@
 ### A- Install the generator
 
-    mkdir ~/generators && cd ~/generators
-    git clone https://github.com/sesteva/generator-ptor.git
-    sudo npm link
+    npm install -g generator-ptor
 
 ### B- Creating a Project
 
